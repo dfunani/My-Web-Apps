@@ -1,0 +1,169 @@
+#root {
+  width: 550px;
+  height: 868px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: start;
+  
+  background: #23252C;
+  
+  
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+}
+
+.App
+{
+  width: auto;
+  height: 780px;
+  
+  margin-bottom: 44px;
+  margin-top: 44px;
+  margin-left: 116px;
+  margin-right: 117px;
+  min-width: 317px;
+}
+
+header
+{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+}
+header > img
+{
+  
+  width: 317px;
+  height: 317px;
+  
+  border-radius: 10px 10px 0px 0px;
+}
+
+main
+{
+  display: flexbox;
+  flex-direction: row;
+  justify-content: center;
+  width: 317px;
+  height: 399px;
+  background: #1A1B21;
+
+
+  padding-top: 20px;
+}
+
+.App-Buttons
+{
+  
+  width: 100%;
+  height: 35px;
+  padding-block: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.App-Buttons button
+{
+  width: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px
+}
+
+
+.App-Buttons button:nth-child(1)
+{
+  background-color: white;
+  color: black;
+}
+
+.App-Buttons button:nth-child(2)
+{
+  background-color: #5093E2;
+
+  color: white;
+}
+
+.App-About
+{
+  height: 100%;
+  height: 273px;
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  flex-direction: column;
+  
+  padding-block: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.App--About-Header, .App-Interests-Header
+{
+  font-size: 16px;
+ 
+  
+  }
+
+.App--About-Body, .App-Interests-Body
+{
+  font-size: 11px;
+  padding-bottom: 10px;
+}
+
+.App-Footer
+{
+  background: #161619;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: -20px;
+  gap: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.App-Title-FullName
+{
+  
+  font-size: 26px;
+  text-align: center;
+}
+.App-Title-Job
+{
+  
+  font-size: 13px;
+  text-align: center;
+}
+.App-Title-Website
+{
+  
+  font-size: 11px;
+  text-align: center;
+}
+
+.App--Icons-Tiktok
+{
+  background-color: grey;
+}
+
+.bi
+{
+  padding-left: 5px;
+  padding-top: 5px;  
+  padding-right: 5px;
+  padding-bottom: 5px;
+  background-color: #918E9B;
+  border-radius: 3px;
+  width: 15px;
+  height: 15px;
+}

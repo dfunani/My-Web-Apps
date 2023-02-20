@@ -1,0 +1,54 @@
+
+
+#root {
+  width: 50%;
+  margin: 0 auto 100px;
+  padding: 2rem;
+  text-align: center;
+  background: #0B2434;
+}
+
+.App
+{ 
+  background: white;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100px;
+}
+
+.App-Intro
+{ 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.App button
+{
+  background: white;
+
+  font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+text-align: center;
+
+color: #2B283A;
+}
+
+
+.col
+{
+  gap: 10px;
+  margin-bottom: -25px;
+}
+
+.App-Intro
+{
+  
+  margin-bottom: 30px;
+}
